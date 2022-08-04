@@ -1,0 +1,9 @@
+type Query {
+    newsfeeds : [Newsfeed]
+}
+
+type Newsfeed {
+    id: String!
+    author: String!
+    content: String!
+}
